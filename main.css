@@ -1,0 +1,495 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./img/beck.png");
+    min-height: 1446px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.langBackground {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.allBackround {
+    background-image: url("./img/beck.png");
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sazes {
+    min-width: 480px;
+    max-width: 940px;
+    margin: 0 20px 0 20px;
+}
+
+.lang {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.langBackground {
+    width: 100%;
+    background: white;
+}
+
+.logoHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+input + label {
+    border-radius: 4px;
+    padding-top: 5px;
+    background-color: rgb(244, 245, 244);
+    width: 39px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12.06px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.lang input {
+    position: absolute;
+    opacity: 0;
+}
+
+input:checked + label {
+    color: white;
+    background-color: rgb(76, 77, 76);
+}
+
+.logoHead a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.8036px;
+    line-height: 24px;
+    display: flex;
+    align-items: start;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333333;
+    gap: 3px;
+}
+
+.logoHref ul {
+    margin-bottom: 2%;
+}
+
+.logoHref {
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo {
+    text-align: center;
+    width: 295px;
+    height: 92px;
+    background-image: url("./img/beck.png");
+    margin-top: -30px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoTex {
+    width: 245px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: rgb(132, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ffont-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.menu {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 0 0px white;
+}
+
+.dropbtn {
+    width: 121%;
+    background-color: rgb(79, 78, 79);
+    padding: 16px;
+    font-size: 16px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.75;
+    text-align: left;
+    border-left: solid 1.5px rgb(68, 65, 71);
+    border-right: solid 1.5px rgb(68, 65, 71);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    width: 204px;
+    display: none;
+    position: absolute;
+    background-color: #932388;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: "Roboto";
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #572786;
+    color: #fff
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(153, 152, 153);
+}
+
+.form {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(193, 192, 192);
+
+}
+
+.formBlock {
+    width: 35%;
+    margin: 20px;
+    padding: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1.732px 4px 0px rgba(1, 1, 1, 0.25);
+    background: rgb(234, 235, 235);
+    text-align: center;
+}
+
+.formBlock h6 {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.429;
+    text-align: left;
+}
+
+.formBox {
+    width: 35%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.formBox::before {
+    content: "Form";
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#label1 {
+    width: 100%;
+    position: relative;
+}
+
+#label1::before {
+    position: absolute;
+    top: -10%;
+    content: "Label1";
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 4%;
+}
+
+
+#label2::before {
+    top: -10%;
+    position: absolute;
+    content: "Label2";
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 4%;
+}
+
+
+#label2::after {
+    top: -10%;
+    right: 4%;
+    position: absolute;
+    content: "Label3";
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+#label3::before {
+    top: -10%;
+    position: absolute;
+    content: "Label4";
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 4%;
+}
+
+
+#label3::after {
+    top: -10%;
+    right: 4%;
+    position: absolute;
+    content: "Label5";
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 1.1%;
+}
+
+#label1 input {
+    width: 92%;
+    margin: 4%;
+}
+
+#label2 input, #label3 input {
+    width: 84%;
+    margin: 8%;
+}
+
+#label2, #label3 {
+    display: flex;
+    position: relative;
+}
+
+.formBlock p {
+    text-align: left;
+}
+
+.formBox button {
+    background: #006C86;
+    margin-left: 4%;
+    width: 174px;
+    height: 31px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 13.9724px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.formBlock button {
+    background: #006C86;
+    margin-left: 2%;
+    width: 174px;
+    height: 31px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 13.9724px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+.blocks {
+    min-height: 0px;
+    display: flex;
+    height: 263px;
+    margin-bottom: 20px;
+}
+
+.blocks p {
+    margin: 10px;
+}
+
+.block {
+    height: 100%;
+    width: 31.2%;
+    margin: 1.66%;
+    background: #FFFFFF;
+}
+
+.blockL {
+    width: 31.2%;
+    margin: 1.66% 1.66% 1.66% 0;
+    background: #FFFFFF;
+    height: 100%;
+}
+
+.blockH {
+    width: 31.2%;
+    margin: 1.66% 0 1.66% 1.66%;
+    background: #FFFFFF;
+    height: 100%;
+}
+
+.imgBlock {
+    width: 100%;
+    height: 60%;
+    background: rgb(132, 132, 132);
+    margin-bottom: 2%;
+}
+
+.pHader {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.pTex {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.grupSaze {
+    width: 100%;
+}
+
+.grup {
+    width: 15%;
+    height: 100px;
+    background: rgb(92 92 92);
+    margin: 10px;
+
+}
+
+.grups1, .grups2 {
+    display: flex;
+    width: 100%;
+}
+
+.grupL {
+    margin: 10px 10px 10px 0;
+    height: 100px;
+    width: 15%;
+    background: rgb(92 92 92);
+}
+
+.grupH {
+    width: 15%;
+    margin: 10px 0 10px 10px;
+    height: 100px;
+    background: rgb(92 92 92);
+}
+
+.grupSaze label, .grupSaze input {
+    display: none;
+}
+
+.fluters {
+    width: 100%;
+    height: 250px;
+    background: rgb(95 95 95);
+    padding: 3% 0 1% 0%;
+}
+
+.fluterTop {
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    position: relative;
+}
+
+.fluter {
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+}
+
+.rectangle {
+    width: 33.33%;
+    height: 60%;
+    background-color: rgb(192, 192, 192);
+    margin: 2%;
+    position: relative;
+}
+
+.fluterTop .rectangle {
+    background-color: #FFFFFF;
+}
+
+.fluterButton::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(114, 114, 114);
+    top: -33%;
+}
+
+.fluterTop::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(114, 114, 114);
+    top: 10px;
+}
+
+.mediaMenu {
+    display: none;
+}
+

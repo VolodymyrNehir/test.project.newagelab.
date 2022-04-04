@@ -1,0 +1,247 @@
+@media screen and (min-width: 240px) and (max-width: 919px) {
+
+    .sazes {
+        min-width: 240px;
+        max-width: 100%;
+        padding: 0 3% 0 3%;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .mediaMenu {
+        display: block;
+    }
+
+    .mediaMenu {
+        width: 100%;
+        background: rgb(78, 79, 78);
+        margin: 40px auto;
+    }
+
+    .mediaMenu span {
+        margin-left: 20px;
+        position: relative;
+        padding: 30px;
+        font-size: 16px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 0.75;
+        cursor: pointer;
+        display: block;
+    }
+
+    .mediaMenu span::after {
+        position: absolute;
+        float: left;
+        left: 0%;
+        top: 27px;
+        content: url("./img/menu-h-menu.png");
+        margin-right: 5px;
+    }
+
+    .slide {
+        clear: both;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .slide a {
+        color: #fff;
+        padding: 12px 6px;
+        text-decoration: none;
+        display: block;
+        border: solid 1px silver;
+    }
+
+    ul.slide {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .slide a:hover {
+        background-color: honeydew;
+        color: #131823;
+    }
+
+
+    .slide li {
+        padding: 0px;
+    }
+
+    #touch {
+        position: absolute;
+        opacity: 0;
+        height: 0px;
+    }
+
+    #touch:checked + .slide {
+        height: 100%
+    }
+
+    .form {
+        flex-direction: column;
+        background: none;
+    }
+
+    .fluters {
+        width: 94%;
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 840px) {
+    .dropdown {
+        display: none;
+    }
+
+    .logo {
+        border-radius: 0;
+        margin-top: 20px;
+        width: 100%;
+        background-color: rgb(132, 132, 132);
+        background-image: none;
+    }
+
+    .logoHead {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logoHref {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logoHref ul {
+        padding-left: 0px;
+    }
+
+    .formBox {
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+
+    #label1 input, #label2 input, #label3 input {
+        margin-left: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .label2, .label4 {
+        margin-right: 10px;
+        width: 100%;
+    }
+
+    .label3, .label5 {
+        width: 100%;
+    }
+
+    .formBox button {
+        margin-left: 0;
+    }
+
+    .formBlock {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .blocks {
+        width: 100%;
+        margin-top: 2%;
+        flex-direction: column;
+        min-height: 940px;
+    }
+
+    .blockH, .blockL, .block {
+        margin: 2% 0 2% 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .grupSaze {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grups1, .grups2 {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .grup {
+        min-height: 100px;
+        width: 46%;
+        margin-left: 0;
+    }
+
+    .grupL, .grupH {
+        min-height: 100px;
+        width: 46%;
+        margin-left: 0;
+    }
+
+    .grupHide, .mardgin0 {
+        margin-right: 0;
+    }
+
+    #touch {
+        position: absolute;
+        opacity: 0;
+        height: 0px;
+    }
+
+    .grupHide {
+        display: none;
+    }
+
+    #more:checked ~ * div.grupHide {
+        display: flex;
+    }
+
+    #more {
+        position: absolute;
+        opacity: 0;
+        height: 0px;
+    }
+
+    .grupSaze label {
+        font-size: 14px;
+        font-family: "Arial";
+        color: rgb(0, 108, 134);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .fluterTop, .fluter {
+        flex-direction: column;
+    }
+
+    .rectangle {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .fluterTop::before, .rectangle::before {
+        display: none;
+    }
+
+    .fluters {
+        width: 94%;
+        height: 450px;
+        margin: 0 20px 0 20px
+    }
+
+    .grupSaze label, .grupSaze input {
+        display: block;
+    }
+
+}
+
