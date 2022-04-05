@@ -10,6 +10,10 @@ body {
     font-weight: 400;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .langBackground {
     display: flex;
     justify-content: center;
@@ -107,6 +111,14 @@ input:checked + label {
     align-items: center;
 }
 
+.logo h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
 .logoTex {
     width: 245px;
     height: 62px;
@@ -127,10 +139,12 @@ input:checked + label {
     width: 100%;
     margin-bottom: 20px;
     box-shadow: 0 3px 0 0px white;
+    /*padding-right: 0;*/
+    /*margin-right: 0;*/
 }
 
 .dropbtn {
-    width: 121%;
+    width: 120%;
     background-color: rgb(79, 78, 79);
     padding: 16px;
     font-size: 16px;
