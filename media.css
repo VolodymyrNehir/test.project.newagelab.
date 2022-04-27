@@ -125,6 +125,10 @@
         padding: 20px 0 20px 0;
     }
 
+    .formBlock button {
+        margin-left: 0;
+    }
+
     #label1 input, #label2 input, #label3 input {
         margin-left: 0;
         width: 100%;
@@ -201,9 +205,23 @@
         display: none;
     }
 
+    #labelLess {
+        display: none;
+        flex-direction: column;
+    }
+
     #more:checked ~ * div.grupHide {
         display: flex;
     }
+
+    #more:checked ~ #labelLess {
+        display: flex;
+    }
+
+    #more:checked ~ #labelMore {
+        display: none;
+    }
+
 
     #more {
         position: absolute;
@@ -211,7 +229,7 @@
         height: 0px;
     }
 
-    .grupSaze label {
+    #labelMore, #labelLess {
         font-size: 14px;
         font-family: "Arial";
         color: rgb(0, 108, 134);
@@ -239,7 +257,7 @@
         margin: 0 20px 0 20px
     }
 
-    .grupSaze label, .grupSaze input {
+    #labelMore {
         display: block;
     }
 
